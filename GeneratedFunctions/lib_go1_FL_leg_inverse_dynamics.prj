@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2021a">
-  <configuration build-checksum="2297686137" file="C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\lib_go1_leg_inverse_dynamics.prj" location="C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions" name="lib_go1_leg_inverse_dynamics" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="1244239775" file="C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\lib_go1_FL_leg_inverse_dynamics.prj" location="C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions" name="lib_go1_FL_leg_inverse_dynamics" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
       <param.BuiltInstrumentedMex />
       <param.RanInstrumentedMex>false</param.RanInstrumentedMex>
@@ -572,19 +572,19 @@
     </profile>
     <param.objective>option.objective.c</param.objective>
     <param.WorkflowStep>generateCode</param.WorkflowStep>
-    <param.TestSnippets>
-      <item>go1_RR_leg_inverse_dynamics([0.1; 0.1; 0.1], [0.0; 0.0; 0.0], [0.0; 0.0; 0.0])</item>
-      <item>go1_RL_leg_inverse_dynamics([0.1; 0.1; 0.1], [0.0; 0.0; 0.0], [0.0; 0.0; 0.0])</item>
-      <item>go1_FR_leg_inverse_dynamics([0.1; 0.1; 0.1], [0.0; 0.0; 0.0], [0.0; 0.0; 0.0])</item>
-      <item>go1_FL_leg_inverse_dynamics([0.1; 0.1; 0.1], [0.0; 0.0; 0.0], [0.0; 0.0; 0.0])</item>
-    </param.TestSnippets>
+    <param.TestSnippets />
     <param.ExternalFcnMajority>column</param.ExternalFcnMajority>
     <param.UseGlobals>option.UseGlobals.No</param.UseGlobals>
-    <param.outputfile>${PROJECT_ROOT}\codegen\lib\go1_leg_inverse_dynamics\go1_leg_inverse_dynamics.lib</param.outputfile>
+    <param.outputfile>${PROJECT_ROOT}\codegen\lib\go1_FL_leg_inverse_dynamics\go1_FL_leg_inverse_dynamics.lib</param.outputfile>
     <param.version>R2012a</param.version>
     <param.HasECoderFeatures>false</param.HasECoderFeatures>
     <param.HasGpuCoder>true</param.HasGpuCoder>
     <var.HasNeuralNetworkToolbox>false</var.HasNeuralNetworkToolbox>
+    <param.newGlobals>
+      <Globals>
+        <idpTable />
+      </Globals>
+    </param.newGlobals>
     <param.mex.mainhtml />
     <param.grt.mainhtml />
     <param.CallGeneratedCodeFromTest>true</param.CallGeneratedCodeFromTest>
@@ -595,7 +595,7 @@
     <param.AutoInferUnboundedSizeThreshold>2048</param.AutoInferUnboundedSizeThreshold>
     <param.EnableFixedPointStep>false</param.EnableFixedPointStep>
     <param.EnableScreener>true</param.EnableScreener>
-    <param.AnnotationChecksum>2902704289</param.AnnotationChecksum>
+    <param.AnnotationChecksum>2051794077</param.AnnotationChecksum>
     <var.LegacyTarget />
     <var.MirrorOnOpen>false</var.MirrorOnOpen>
     <param.FixedPointEnabled>false</param.FixedPointEnabled>
@@ -603,14 +603,14 @@
     <var.DismissScreener>false</var.DismissScreener>
     <param.unifiedParamStorage />
     <param.hdlParamStorage />
-    <var.gc.lastOutputRoot>codegen\lib\go1_leg_inverse_dynamics</var.gc.lastOutputRoot>
+    <var.gc.lastOutputRoot>codegen\lib\go1_FL_leg_inverse_dynamics</var.gc.lastOutputRoot>
     <var.gc.lastOutputType>C_CODE</var.gc.lastOutputType>
-    <var.gc.preBuildChecksum>2834462295</var.gc.preBuildChecksum>
+    <var.gc.preBuildChecksum>543146204</var.gc.preBuildChecksum>
     <var.cfi.lastOutputRoot />
     <var.cfi.preBuildChecksum />
     <var.outdatedOnRestore>false</var.outdatedOnRestore>
-    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;256164823&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
-    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
+    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics_hip_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics_hip_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics_hip_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics_hip_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics_hip_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics_hip_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics_hip_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics_hip_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics_thigh_zero.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;319316978&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
+    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics_hip_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics_hip_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FL_leg_inverse_dynamics_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics_hip_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics_hip_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_FR_leg_inverse_dynamics_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics_hip_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics_hip_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RL_leg_inverse_dynamics_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics_hip_thigh_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics_hip_zero.m&lt;/file&gt;&lt;file&gt;C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\go1_RR_leg_inverse_dynamics_thigh_zero.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
     <param.forceMexBuild>false</param.forceMexBuild>
     <param.NoDefaultJIT>false</param.NoDefaultJIT>
     <param.configImportActive>false</param.configImportActive>
@@ -625,9 +625,9 @@
     <param.ForceANSIC>false</param.ForceANSIC>
     <param.NumCompileJobs>1</param.NumCompileJobs>
     <param.mex.outputfile>go1_FL_leg_inverse_dynamics_mex</param.mex.outputfile>
-    <param.grt.outputfile>go1_leg_inverse_dynamics</param.grt.outputfile>
+    <param.grt.outputfile>go1_FL_leg_inverse_dynamics</param.grt.outputfile>
     <param.artifact>option.target.artifact.lib</param.artifact>
-    <param.outputfile>${PROJECT_ROOT}\codegen\lib\go1_leg_inverse_dynamics\go1_leg_inverse_dynamics.lib</param.outputfile>
+    <param.outputfile>${PROJECT_ROOT}\codegen\lib\go1_FL_leg_inverse_dynamics\go1_FL_leg_inverse_dynamics.lib</param.outputfile>
     <param.CppNamespace />
     <param.CppPackagesToNamespaces>true</param.CppPackagesToNamespaces>
     <param.CppNamespaceForMathworksCode>coder</param.CppNamespaceForMathworksCode>
@@ -724,6 +724,7 @@
     <param.FixedPointUseDesignRanges>false</param.FixedPointUseDesignRanges>
     <unset>
       <param.objective />
+      <param.TestSnippets />
       <param.ExternalFcnMajority />
       <param.UseGlobals />
       <param.outputfile />
@@ -764,6 +765,7 @@
       <param.ForceANSIC />
       <param.NumCompileJobs />
       <param.mex.outputfile />
+      <param.grt.outputfile />
       <param.CppNamespace />
       <param.CppPackagesToNamespaces />
       <param.CppNamespaceForMathworksCode />
@@ -859,16 +861,52 @@
     </unset>
     <fileset.entrypoints>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FL_leg_inverse_dynamics.m">
-        <Marker>1688054077221</Marker>
+        <Marker>1688062281699</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FL_leg_inverse_dynamics_hip_thigh_zero.m">
+        <Marker>1688062279687</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FL_leg_inverse_dynamics_hip_zero.m">
+        <Marker>1688062275733</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FL_leg_inverse_dynamics_thigh_zero.m">
+        <Marker>1688062271284</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FR_leg_inverse_dynamics.m">
-        <Marker>1688054094201</Marker>
+        <Marker>1688062261811</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FR_leg_inverse_dynamics_hip_thigh_zero.m">
+        <Marker>1688062257818</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FR_leg_inverse_dynamics_hip_zero.m">
+        <Marker>1688062248666</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FR_leg_inverse_dynamics_thigh_zero.m">
+        <Marker>1688062243717</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RL_leg_inverse_dynamics.m">
-        <Marker>1688054098280</Marker>
+        <Marker>1688062231356</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RL_leg_inverse_dynamics_hip_thigh_zero.m">
+        <Marker>1688062227258</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RL_leg_inverse_dynamics_hip_zero.m">
+        <Marker>1688062216243</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RL_leg_inverse_dynamics_thigh_zero.m">
+        <Marker>1688062212916</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RR_leg_inverse_dynamics.m">
-        <Marker>1688054100876</Marker>
+        <Marker>1688062208449</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RR_leg_inverse_dynamics_hip_thigh_zero.m">
+        <Marker>1688062205160</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RR_leg_inverse_dynamics_hip_zero.m">
+        <Marker>1688062186220</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RR_leg_inverse_dynamics_thigh_zero.m">
+        <Marker>1688062181230</Marker>
       </file>
     </fileset.entrypoints>
     <fileset.testbench />
@@ -884,7 +922,61 @@
               <Size>3 x 1</Size>
               <Value />
               <InitialValue />
-              <UserDefined>false</UserDefined>
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FL_leg_inverse_dynamics_hip_thigh_zero.m">
+        <Inputs fileName="go1_FL_leg_inverse_dynamics_hip_thigh_zero.m" functionName="go1_FL_leg_inverse_dynamics_hip_thigh_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FL_leg_inverse_dynamics_hip_zero.m">
+        <Inputs fileName="go1_FL_leg_inverse_dynamics_hip_zero.m" functionName="go1_FL_leg_inverse_dynamics_hip_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FL_leg_inverse_dynamics_thigh_zero.m">
+        <Inputs fileName="go1_FL_leg_inverse_dynamics_thigh_zero.m" functionName="go1_FL_leg_inverse_dynamics_thigh_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
               <Complex>false</Complex>
               <Sparse>false</Sparse>
             </type>
@@ -902,7 +994,61 @@
               <Size>3 x 1</Size>
               <Value />
               <InitialValue />
-              <UserDefined>false</UserDefined>
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FR_leg_inverse_dynamics_hip_thigh_zero.m">
+        <Inputs fileName="go1_FR_leg_inverse_dynamics_hip_thigh_zero.m" functionName="go1_FR_leg_inverse_dynamics_hip_thigh_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FR_leg_inverse_dynamics_hip_zero.m">
+        <Inputs fileName="go1_FR_leg_inverse_dynamics_hip_zero.m" functionName="go1_FR_leg_inverse_dynamics_hip_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_FR_leg_inverse_dynamics_thigh_zero.m">
+        <Inputs fileName="go1_FR_leg_inverse_dynamics_thigh_zero.m" functionName="go1_FR_leg_inverse_dynamics_thigh_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
               <Complex>false</Complex>
               <Sparse>false</Sparse>
             </type>
@@ -920,7 +1066,61 @@
               <Size>3 x 1</Size>
               <Value />
               <InitialValue />
-              <UserDefined>false</UserDefined>
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RL_leg_inverse_dynamics_hip_thigh_zero.m">
+        <Inputs fileName="go1_RL_leg_inverse_dynamics_hip_thigh_zero.m" functionName="go1_RL_leg_inverse_dynamics_hip_thigh_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RL_leg_inverse_dynamics_hip_zero.m">
+        <Inputs fileName="go1_RL_leg_inverse_dynamics_hip_zero.m" functionName="go1_RL_leg_inverse_dynamics_hip_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RL_leg_inverse_dynamics_thigh_zero.m">
+        <Inputs fileName="go1_RL_leg_inverse_dynamics_thigh_zero.m" functionName="go1_RL_leg_inverse_dynamics_thigh_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
               <Complex>false</Complex>
               <Sparse>false</Sparse>
             </type>
@@ -938,7 +1138,61 @@
               <Size>3 x 1</Size>
               <Value />
               <InitialValue />
-              <UserDefined>false</UserDefined>
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RR_leg_inverse_dynamics_hip_thigh_zero.m">
+        <Inputs fileName="go1_RR_leg_inverse_dynamics_hip_thigh_zero.m" functionName="go1_RR_leg_inverse_dynamics_hip_thigh_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RR_leg_inverse_dynamics_hip_zero.m">
+        <Inputs fileName="go1_RR_leg_inverse_dynamics_hip_zero.m" functionName="go1_RR_leg_inverse_dynamics_hip_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\go1_RR_leg_inverse_dynamics_thigh_zero.m">
+        <Inputs fileName="go1_RR_leg_inverse_dynamics_thigh_zero.m" functionName="go1_RR_leg_inverse_dynamics_thigh_zero">
+          <Input Name="in1" typeId="0" />
+          <Input Name="in2" typeId="0" />
+          <Input Name="in3" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>3 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
               <Complex>false</Complex>
               <Sparse>false</Sparse>
             </type>
@@ -947,7 +1201,7 @@
       </file>
     </fileset.inputtypes>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\codegen\lib\go1_leg_inverse_dynamics" name="go1_leg_inverse_dynamics.lib" optional="false">C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\codegen\lib\go1_leg_inverse_dynamics\go1_leg_inverse_dynamics.lib</file>
+      <file location="${PROJECT_ROOT}\codegen\lib\go1_FL_leg_inverse_dynamics" name="go1_FL_leg_inverse_dynamics.lib" optional="false">C:\Users\11861\Documents\MATLAB\unitree_dynamics\GeneratedFunctions\codegen\lib\go1_FL_leg_inverse_dynamics\go1_FL_leg_inverse_dynamics.lib</file>
     </build-deliverables>
     <workflow />
     <matlab>
