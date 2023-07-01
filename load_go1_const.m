@@ -16,7 +16,12 @@ else
     y_sign = -1;
 end
 
-% The origin of joint 1 is the same as the base frame
+%% JOINTS POSITION
+% Position of joint 1 in body frame
+hip_offset_x = x_sign * 0.1881;
+hip_offset_y = y_sign * 0.04675;
+hip_offset_z = 0;
+
 % Position of joint 2 in joint 1 frame
 thigh_offset_x = x_sign * 0;
 thigh_offset_y = y_sign * 0.0812;
@@ -32,6 +37,7 @@ foot_offset_x = x_sign * 0;
 foot_offset_y = y_sign * 0;
 foot_offset_z = -0.213;
 
+%% LINKS MASS AND INERTIA
 % Hip link physical properties
 hip_mass = 0.591;
 % COM position in joint 1 frame
@@ -68,9 +74,9 @@ calf_G = [[0.001088793059, -0.000000255679, 0.000007117814;
            zeros(3, 3), eye(3) * calf_mass];
 
 %% HOMOGENEOUS TRANSFORMATION
-M_bh = [1, 0, 0, hip_com_x;
-        0, 1, 0, hip_com_y;
-        0, 0, 1, hip_com_z;
+M_bh = [1, 0, 0, hip_offset_x + hip_com_x;
+        0, 1, 0, hip_offset_y + hip_com_y;
+        0, 0, 1, hip_offset_z + hip_com_z;
         0, 0, 0, 1];
 M_ht = [1, 0, 0, -hip_com_x + thigh_offset_x + thigh_com_x;
         0, 1, 0, -hip_com_y + thigh_offset_y + thigh_com_y;
@@ -87,7 +93,7 @@ M_cf = [1, 0, 0, -calf_com_x + foot_offset_x;
 
 %% SCREW AXES OF JOINTS
 w_1 = [1; 0; 0];
-p_1 = [0; 0; 0];
+p_1 = [hip_offset_x; hip_offset_y; hip_offset_z];
 s_1 = [w_1; -cross(w_1, p_1)];
 
 w_2 = [0; 1; 0];
